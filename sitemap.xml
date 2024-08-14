@@ -74,15 +74,6 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/algebra/coset-of-subgroup/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fuuzen.github.io/math/discrete-math/algebra/group-basics/</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -101,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/algebra/permutation-group/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/algebra/coset-of-subgroup/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -111,6 +102,15 @@
   
   <url>
     <loc>https://fuuzen.github.io/math/discrete-math/algebra/normal-subgroup/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/math/discrete-math/algebra/permutation-group/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/algebra-system/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/counting/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/counting/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/algebra-system/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/operations-of-sets-and-relations/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/permutaion-and-combination/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/permutaion-and-combination/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/discrete-math-basics/dmbs/operations-of-sets-and-relations/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/graph/match/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/graph/shortest-path-algorithms/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/math/discrete-math/graph/shortest-path-algorithms/</loc>
+    <loc>https://fuuzen.github.io/math/discrete-math/graph/match/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/binary-tree/</loc>
+    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/b-tree/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -353,7 +353,16 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/critical-path/</loc>
+    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/graph/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/binary-tree/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -371,16 +380,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/b-tree/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/graph/</loc>
+    <loc>https://fuuzen.github.io/cs/data-structure-and-algorithm/critical-path/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -470,15 +470,6 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/os/ysosv2/lab1/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fuuzen.github.io/cs/os/ysosv2/lab0/</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -488,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/os/ysosv2/lab2/</loc>
+    <loc>https://fuuzen.github.io/cs/os/ysosv2/lab1/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -506,7 +497,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/os/ysosv2/lab5/</loc>
+    <loc>https://fuuzen.github.io/cs/os/ysosv2/lab2/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -516,6 +507,15 @@
   
   <url>
     <loc>https://fuuzen.github.io/cs/os/ysosv2/lab4/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/cs/os/ysosv2/lab5/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -560,7 +560,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/devops/nat-traversal/</loc>
+    <loc>https://fuuzen.github.io/cs/devops/nginx/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -569,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/devops/nginx/</loc>
+    <loc>https://fuuzen.github.io/cs/devops/nat-traversal/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -677,15 +677,6 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/tools/cmake/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fuuzen.github.io/ie/de/bool-algebra/</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -713,15 +704,6 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/ie/de/digital-process/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fuuzen.github.io/ie/de/gate-circuit/</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -731,16 +713,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/tools/vscode-remote-ssh-login-shell/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/ie/de/integrated-circuit/</loc>
+    <loc>https://fuuzen.github.io/ie/de/digital-process/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -767,7 +740,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/ie/de/numerical-system/</loc>
+    <loc>https://fuuzen.github.io/ie/de/integrated-circuit/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -785,6 +758,24 @@
   </url>
   
   <url>
+    <loc>https://fuuzen.github.io/ie/de/numerical-system/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/ie/signals-and-systems/CTFT/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fuuzen.github.io/ie/signals-and-systems/DTFT/</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -794,7 +785,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/ie/signals-and-systems/FS/</loc>
+    <loc>https://fuuzen.github.io/ie/signals-and-systems/LT/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -803,7 +794,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/ie/signals-and-systems/LT/</loc>
+    <loc>https://fuuzen.github.io/ie/signals-and-systems/FS/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -830,7 +821,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/ie/signals-and-systems/CTFT/</loc>
+    <loc>https://fuuzen.github.io/ie/signals-and-systems/systems-concepts/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -848,7 +839,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/ie/signals-and-systems/systems-concepts/</loc>
+    <loc>https://fuuzen.github.io/cs/tools/vscode-remote-ssh-login-shell/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -866,7 +857,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/yatcpu/yatcpu-report/</loc>
+    <loc>https://fuuzen.github.io/cs/tools/cmake/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -875,7 +866,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/yatcpu/lab-reports/lab3/</loc>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/yatcpu/yatcpu-report/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -893,7 +884,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/os/deadlock/</loc>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/yatcpu/lab-reports/lab3/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -902,7 +893,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/os/fs/</loc>
+    <loc>https://fuuzen.github.io/cs/os/concepts/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -929,6 +920,15 @@
   </url>
   
   <url>
+    <loc>https://fuuzen.github.io/cs/os/fs/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fuuzen.github.io/cs/os/memory-management/</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -947,7 +947,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/os/sync/</loc>
+    <loc>https://fuuzen.github.io/cs/os/deadlock/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -956,7 +956,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/cache/</loc>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/basic-indicators-of-computer-performance/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -966,6 +966,24 @@
   
   <url>
     <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/cpu/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/exception-and-interruption/</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/cache/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -992,7 +1010,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/exception-and-interruption/</loc>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/instruction-system/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -1001,7 +1019,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/instruction-system/</loc>
+    <loc>https://fuuzen.github.io/cs/os/sync/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -1019,25 +1037,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/von-neumann-architecture/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/cs/os/concepts/</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/basic-indicators-of-computer-performance/</loc>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/operation/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -1055,7 +1055,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/operation/</loc>
+    <loc>https://fuuzen.github.io/cs/principles-of-computer-composition/von-neumann-architecture/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -1237,14 +1237,14 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://fuuzen.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://fuuzen.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1279,34 +1279,6 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/tags/JS/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/tags/Rust/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/tags/%E5%B9%B6%E8%A1%8C/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://fuuzen.github.io/tags/os/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -1314,7 +1286,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
+    <loc>https://fuuzen.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1328,7 +1300,21 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/tags/%E6%80%9D%E6%94%BF/</loc>
+    <loc>https://fuuzen.github.io/tags/Rust/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/tags/JS/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/tags/%E5%B9%B6%E8%A1%8C/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1391,6 +1377,13 @@
   </url>
   
   <url>
+    <loc>https://fuuzen.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://fuuzen.github.io/tags/%E7%BE%A4%E8%AE%BA/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -1413,6 +1406,13 @@
   
   <url>
     <loc>https://fuuzen.github.io/tags/coursework/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/tags/%E6%80%9D%E6%94%BF/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1512,6 +1512,20 @@
   </url>
   
   <url>
+    <loc>https://fuuzen.github.io/categories/cs/os/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/cs/principles-of-computer-composition/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://fuuzen.github.io/categories/cs/languages/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -1526,70 +1540,7 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/categories/cs/os/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/cs/raspberrypi/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/cs/principles-of-computer-composition/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/si-zheng/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/cs/tools/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://fuuzen.github.io/categories/ie/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/math/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/cs/os/ysosv2/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/cs/principles-of-computer-composition/yatcpu/</loc>
-    <lastmod>2024-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fuuzen.github.io/categories/si-zheng/ma-yuan/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1610,7 +1561,42 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/categories/math/cryptography/</loc>
+    <loc>https://fuuzen.github.io/categories/cs/raspberrypi/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/cs/tools/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/math/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/cs/principles-of-computer-composition/yatcpu/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/si-zheng/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/cs/os/ysosv2/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1624,7 +1610,14 @@
   </url>
   
   <url>
-    <loc>https://fuuzen.github.io/categories/math/discrete-math/%E4%BB%A3%E6%95%B0%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://fuuzen.github.io/categories/math/cryptography/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/si-zheng/ma-yuan/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1639,6 +1632,13 @@
   
   <url>
     <loc>https://fuuzen.github.io/categories/math/discrete-math/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2024-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fuuzen.github.io/categories/math/discrete-math/%E4%BB%A3%E6%95%B0%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2024-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
