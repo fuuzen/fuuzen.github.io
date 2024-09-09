@@ -21,8 +21,7 @@
             <category term="数据库" scheme="https://fuuzen.github.io/tags/db/" />
             <category term="DevOps" scheme="https://fuuzen.github.io/tags/DevOps/" />
             <pubDate>Mon, 09 Sep 2024 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;本文记录了在 Ubuntu 22.04 上安装 Microsoft SQL Server (mssql-server) 2022，实践中可以用于 《MySQL 数据库&lt;br /&gt;
-技术与实验指导》作为实验教材的实验课程中。&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;本文记录了在 Ubuntu 22.04 上安装 Microsoft SQL Server (mssql-server) 2022，实践中可以用于 《MySQL 数据库技术与实验指导》作为实验教材的实验课程中。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL2VuLXVzL3NxbC9saW51eC9xdWlja3N0YXJ0LWluc3RhbGwtY29ubmVjdC11YnVudHU=&#34;&gt;官方教程&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
