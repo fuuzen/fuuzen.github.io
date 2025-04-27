@@ -202,7 +202,7 @@
 
   <url>
     <loc>https://taf.fyi/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -210,42 +210,42 @@
   
   <url>
     <loc>https://taf.fyi/tags/DevOps/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/Linux/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/ctf/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/db/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -254,70 +254,70 @@
   
   <url>
     <loc>https://taf.fyi/categories/ACGN/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/db/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/devops/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/linux/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/math/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/ctf/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/pve/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/cs/raspberrypi/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/math/cryptography/</loc>
-    <lastmod>2025-04-17</lastmod>
+    <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
