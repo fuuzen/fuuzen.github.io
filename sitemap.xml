@@ -218,6 +218,13 @@
 
   
   <url>
+    <loc>https://taf.fyi/tags/db/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://taf.fyi/tags/DevOps/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -226,13 +233,6 @@
   
   <url>
     <loc>https://taf.fyi/tags/ctf/</loc>
-    <lastmod>2025-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/tags/db/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -255,13 +255,6 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/categories/cs/ctf/</loc>
-    <lastmod>2025-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://taf.fyi/categories/cs/devops/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -269,14 +262,21 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/categories/cs/pve/</loc>
+    <loc>https://taf.fyi/categories/cs/db/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://taf.fyi/categories/cs/db/</loc>
+    <loc>https://taf.fyi/categories/cs/ctf/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/pve/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
