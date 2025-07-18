@@ -218,7 +218,7 @@
 
   
   <url>
-    <loc>https://taf.fyi/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <loc>https://taf.fyi/tags/ctf/</loc>
     <lastmod>2025-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -239,7 +239,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/tags/ctf/</loc>
+    <loc>https://taf.fyi/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
     <lastmod>2025-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -248,35 +248,7 @@
 
   
   <url>
-    <loc>https://taf.fyi/categories/math/</loc>
-    <lastmod>2025-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/math/cryptography/</loc>
-    <lastmod>2025-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://taf.fyi/categories/cs/</loc>
-    <lastmod>2025-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/cs/db/</loc>
-    <lastmod>2025-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/cs/ctf/</loc>
     <lastmod>2025-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -290,7 +262,35 @@
   </url>
   
   <url>
+    <loc>https://taf.fyi/categories/cs/ctf/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/db/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://taf.fyi/categories/cs/pve/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/math/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/math/cryptography/</loc>
     <lastmod>2025-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
