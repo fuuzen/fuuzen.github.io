@@ -22,7 +22,7 @@
             <pubDate>Mon, 10 Nov 2025 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;参赛经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参赛经历&#34;&gt;#&lt;/a&gt; 参赛经历&lt;/h1&gt;
 &lt;div class=&#34;note primary&#34;&gt;
-&lt;p&gt;前情提要: &lt;a href=&#34;https://taf.fyi/cs/db/mini-oceanbase/&#34;&gt;Mini OceanBase 2024&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;前情提要: &lt;a href=&#34;https://taf.fyi/cs/db/MiniOB-2024/&#34;&gt;Mini OceanBase 2024&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;2025 年 10 月底，我和去年的队友再次参加了第五届 OceanBase 数据库大赛。尽管可以提前开发，但是我们都比较忙直到初赛正式开始后才开工，耗费 2 个多星期时间，在 11 月 9 日晚上终于 AK 了今年初赛的全部题目。我们是第 26 名 AK 的队伍，也是广东省的第一。&lt;/p&gt;
 &lt;p&gt;这一次比赛，我修好了很多去年的 BUG，也成功挑战了更难的题目。截至我们 AK 为止，通过率最低的 2 道那难题 full-text-index (全文索引) 和 create-view (视图) 都由我负责完成。&lt;/p&gt;
@@ -41,7 +41,7 @@
 &lt;p&gt;至于 big-order-by 这道题目，是队友优化完成的，他的思路看起来投机取巧，不是外排序实现的。因为排序时所有的值都是 int 类型，所以他在检测到排序数据量很大时，把所有的 Value 都转化为 int，然后对 int 类型的数据排序，最后输出前慢慢转换回去。Value 改为 int 节省了很多内存，足以通过测评。&lt;/p&gt;
 &lt;p&gt;这看起来像是邪门歪道，但在真实的业务场景，倘若真的对海量数据排序，往往全都是对 int 类型数据比较，那么额外的抽象数据结构确实带来了大量冗余无用的内存负担，将它们优化掉是完全合理有必要的。&lt;/p&gt;
 &lt;h1 id=&#34;子查询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#子查询&#34;&gt;#&lt;/a&gt; 子查询&lt;/h1&gt;
-&lt;p&gt;我实现的子查询没有用 Expression 表示。在今年发现  &lt;code&gt;UPDATE ... SET VALUES A = B&lt;/code&gt;  这样的语句中 B 需要支持子查询时，我才意识到这个问题。子查询最终我也没有修正回 Expression 的设计，因为已经庞大复杂的代码迁移起来比较头疼，懒得再改了，我额外处理了一遍 UPDATE 的情况。&lt;/p&gt;
+&lt;p&gt;我实现的子查询没有用 Expression 表示。在今年发现  &lt;code&gt;UPDATE ... SET A = B&lt;/code&gt;  这样的语句中 B 需要支持子查询时，我才意识到这个问题。子查询最终我也没有修正回 Expression 的设计，因为已经庞大复杂的代码迁移起来比较头疼，懒得再改了，我额外处理了一遍 UPDATE 的情况。&lt;/p&gt;
 &lt;p&gt;子查询还有一个非常需要注意的地方，那就是实际上子查询并非是只执行一次就够的，它的父级查询获取得到了多少个 tuple，它就需要执行多少次。例如如下这个 SQL 语句:&lt;/p&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;SELECT&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;FROM&lt;/span&gt; t1 &lt;span class=&#34;token keyword&#34;&gt;WHERE&lt;/span&gt; t1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;id &lt;span class=&#34;token operator&#34;&gt;IN&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;SELECT&lt;/span&gt; t2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;id &lt;span class=&#34;token keyword&#34;&gt;FROM&lt;/span&gt; t2 &lt;span class=&#34;token keyword&#34;&gt;WHERE&lt;/span&gt; t2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;id &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; t1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;id&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这里的子查询  &lt;code&gt;(SELECT t2.id FROM t2 WHERE t2.id &amp;lt;= t1.id)&lt;/code&gt;  需要针对每一个从 t1 中获取到的 tuple 执行一次，才能得到正确的结果。所以需要注意，每一次当前查询获取到一个当前 tuple，都需要  &lt;code&gt;open&lt;/code&gt;  一次子查询树，执行一遍子查询，完成相关操作后进行  &lt;code&gt;close&lt;/code&gt; 。&lt;/p&gt;
 &lt;p&gt;至于父级 tuple 的信息如何向下传递给子查询呢？我的实现是基于火山模型的  &lt;code&gt;next&lt;/code&gt;  方法创建了一个特殊的  &lt;code&gt;next_with_tuple&lt;/code&gt;  方法，根级首次查询调用这个方法的时候放入当前自己获取到的 tuple，在经过每一级子查询语句的时候，都会把传下来的这个 tuple 上附加到子查询当前获取到的 tuple 上，这样  &lt;code&gt;PredicatePhysicalOperator&lt;/code&gt;  等算子就能看到所有父级查询 tuple 信息了。&lt;/p&gt;
