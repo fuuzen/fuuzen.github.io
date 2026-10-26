@@ -11,7 +11,7 @@
     <updated>2026-10-26T07:00:00.000Z</updated>
     <entry>
         <id>https://taf.fyi/cs/ai/cc-pool/</id>
-        <title>CC-Pool</title>
+        <title>CC-Pool：官方 CLI 原生使用统一号池方案</title>
         <link rel="alternate" href="https://taf.fyi/cs/ai/cc-pool/"/>
         <content type="html">&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; Intro&lt;/h2&gt;
 &lt;p&gt;最近 OpenAI 虽然送了很多重置，但是它的过度小心和防御性编程严重拖累了我的一些工作。&lt;/p&gt;
@@ -20,8 +20,17 @@
 &lt;li&gt;环境问题，需要特别配置网络等环境避免封号&lt;/li&gt;
 &lt;li&gt;分发问题，有多台开发机，那么每一个开发机都要因为上面的环境问题而进行适配，会很麻烦&lt;/li&gt;
 &lt;li&gt;使用体验问题，使用体验最好能接近当前最好的 Codex Desktop，如果能 cli2wewb 使得我随时用手机 / 笔记本等终端设备用浏览器打开使用就更好了&lt;/li&gt;
+&lt;li&gt;模型能力问题，因为 Anthropric 和 OpenAI 在训练 Coding 模型的时候会针对自家 CLI 的接口进行调优优化，包括对源代码文件频繁的 View/Edit 等操作和执行 Shell 指令，如果号池机不能使用这些 CLI 原生功能，比如会降低模型的能力&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;基于上面的问题，经过我和 AI 的深入交流，最终设计制造出来如下框架：&lt;/p&gt;
+&lt;p&gt;可能你会觉得反代能轻松解决这些问题，但我首先否决反代，一方面是我已经反代了 Codex 很长一段时间，我已经遇到了降智问题，是观察得出的结果。另一方面从技术上讲，实际上开源社区里诸如  &lt;code&gt;sub2api&lt;/code&gt;  和  &lt;code&gt;CLIProxyAPI&lt;/code&gt;  这些反代工具是 “破绽百出” 的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先不用官方 CLI 的首先就会因为官方远端只看得到推理请求看不到遥测数据而被发现了，更别提修改了 system prompt 的使用更是推理的时候就能发现。&lt;/li&gt;
+&lt;li&gt;就算是使用官方 CLI 接反代，只要存在分发到不同环境，在远端官方看来就是同一个 CLI 发送了 2 种不同的遥测数据，同样能揪出来。&lt;/li&gt;
+&lt;li&gt;严格限制一个号同时只能反代给一个环境用，也就是槽位分配限制，看上去没有上面两个问题了，但是官方 CLI 依然能上报当前使用 CLI 的方式和鉴权相关信息，必然会和反代系统里那个账号的授权信息不一样。&lt;/li&gt;
+&lt;li&gt;那在此基础上反代系统逆向和伪装官方授权，将一模一样的授权 token 给到下游 CLI，下游 CLI 还修改本地 DNS 让官方域名指向反代网关使得 BASE_URL 也和官方一模一样？TLS 自签证书链必然会向 CLI 暴露中间人劫持的存在。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;实际上，就好比完全逆向微信我们就能随便接 BOT 而不被封号，只要完全逆向官方 CLI，我们还真能在避免上述问题的前提下用反代。实际上这样的做法已经存在了，不过完全逆向以及持续跟进官方更新是成本极高的事情，我所见到的都是利用此道盈利的商业模式，例如  &lt;code&gt;rawchat.cn&lt;/code&gt;  和  &lt;code&gt;reclaude.ai&lt;/code&gt; 。他们完全逆向了官方 CLI，要求用户使用他们专门改良的二开 CLI，实现伪装所有遥测数据的上报。&lt;/p&gt;
+&lt;p&gt;我并不希望也不太可能做到这样足以商业化的程度，我希望是一个更轻量更优雅的解决方案。经过我和 AI 的深入交流，最终设计制造出来如下框架：&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/assets/ai/cc-pool/arch.jpg&#34; alt=&#34;架构图&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;其中号池机上的部分已经开源到 Github 上：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2Z1dXplbi9jYy1wb29s&#34;&gt;https://github.com/fuuzen/cc-pool&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;其余配置部分如下：&lt;/p&gt;
