@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://taf.fyi/cs/ai/cc-pool/</loc>
+    
+    <lastmod>2026-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://taf.fyi/acgn/aihong/</loc>
     
     <lastmod>2026-04-07</lastmod>
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/math/cryptography/sha-256/</loc>
+    <loc>https://taf.fyi/math/cryptography/vigenere/</loc>
     
     <lastmod>2025-11-11</lastmod>
     
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/math/cryptography/vigenere/</loc>
+    <loc>https://taf.fyi/math/cryptography/sha-256/</loc>
     
     <lastmod>2025-11-11</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/math/cryptography/pollard-rho/</loc>
+    <loc>https://taf.fyi/math/cryptography/rsa/</loc>
     
     <lastmod>2025-11-11</lastmod>
     
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/math/cryptography/rsa/</loc>
+    <loc>https://taf.fyi/math/cryptography/pollard-rho/</loc>
     
     <lastmod>2025-11-11</lastmod>
     
@@ -218,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/cs/ctf/w4terctf2024/</loc>
+    <loc>https://taf.fyi/cs/db/linux-mssql-server/</loc>
     
     <lastmod>2025-11-11</lastmod>
     
@@ -227,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://taf.fyi/cs/db/linux-mssql-server/</loc>
+    <loc>https://taf.fyi/cs/ctf/w4terctf2024/</loc>
     
     <lastmod>2025-11-11</lastmod>
     
@@ -238,36 +247,43 @@
 
   <url>
     <loc>https://taf.fyi/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://taf.fyi/tags/ctf/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://taf.fyi/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/db/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/tags/DevOps/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://taf.fyi/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://taf.fyi/tags/AI/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/tags/ctf/</loc>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -275,50 +291,57 @@
 
   
   <url>
-    <loc>https://taf.fyi/categories/cs/</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/cs/db/</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/cs/ctf/</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/cs/devops/</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://taf.fyi/categories/cs/pve/</loc>
-    <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://taf.fyi/categories/math/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://taf.fyi/categories/math/cryptography/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/db/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/AI/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/devops/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/pve/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://taf.fyi/categories/cs/ctf/</loc>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
